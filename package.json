@@ -1,0 +1,11 @@
+{
+  "name": "jest-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/high-g/jest-playground.git",
+  "author": "fumiya <altema1217bbfumi@live.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
