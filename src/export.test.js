@@ -1,4 +1,4 @@
-const sum = require('./sum')
+import { sum } from './export'
 
 test('adds 1 + 2 = 3', () => {
   expect(sum(1, 2)).toBe(3)
