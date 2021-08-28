@@ -9,4 +9,7 @@ test('null', () => {
   expect(n).toBe(null)
   expect(n).toBeNull()
   expect(undefined).toBeUndefined()
+  expect(n).toBeDefined()
+  expect(true).toBeTruthy()
+  expect(false).toBeFalsy()
 })
