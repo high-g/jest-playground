@@ -15,6 +15,6 @@ test('boolean', () => {
 })
 
 test('number', () => {
-  const num = 2
+  const num = 3
   expect(num).toBeGreaterThan(1)
 })
