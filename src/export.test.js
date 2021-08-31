@@ -24,3 +24,8 @@ test('number', () => {
   expect(num).toBe(3)
   expect(num).toEqual(3)
 })
+
+test('float number', () => {
+  const val = 0.1 + 0.2
+  expect(val).toBeCloseTo(0.3)
+})
