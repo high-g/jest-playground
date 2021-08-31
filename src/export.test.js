@@ -17,4 +17,10 @@ test('boolean', () => {
 test('number', () => {
   const num = 3
   expect(num).toBeGreaterThan(1)
+  expect(num).toBeGreaterThanOrEqual(3)
+  expect(num).toBeLessThan(4)
+  expect(num).toBeLessThanOrEqual(3)
+
+  expect(num).toBe(3)
+  expect(num).toEqual(3)
 })
