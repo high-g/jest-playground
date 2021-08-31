@@ -29,3 +29,10 @@ test('float number', () => {
   const val = 0.1 + 0.2
   expect(val).toBeCloseTo(0.3)
 })
+
+test('string', () => {
+  const val = 'test'
+  expect(val).toMatch('test')
+  expect(val).toMatch(/test/)
+  expect(val).not.toMatch(/fff/)
+})
