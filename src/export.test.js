@@ -36,3 +36,9 @@ test('string', () => {
   expect(val).toMatch(/test/)
   expect(val).not.toMatch(/fff/)
 })
+
+const shoppingList = ['a', 'b', 'c', 'd', 'e']
+
+test('array', () => {
+  expect(shoppingList).toContain('b')
+})
